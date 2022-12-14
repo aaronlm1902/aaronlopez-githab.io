@@ -1,0 +1,58 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+   
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav div {
+    background-color: #0b0f8f;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display:inline-block;
+    width: 24%;
+    padding: 1%;
+  }
+
+  
+  .sidebar {
+    background-color:  #0b0f8f;
+    color: white;
+    float: left;
+    height: 605px;
+    width: 102%;
+    margin-top: 1%;
+  }
+  
+  .sidebar div {
+    padding: 60px;
+  }
+  
+  section.courses {
+    float: left;
+    margin-left: 5%;
+    position: absolute;
+    width: 100%;
+    color: white;
+  }
+  .formulario {
+    top:30% ;
+    left: 30%;
+    width: 70%;
+    background-color: #0b0f8f;
+    text-align: center;
+      
+  }
+  .Curriculum{
+    color: white;
+  }
