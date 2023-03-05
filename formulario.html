@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="./img/favicon_spiderman.ico"> 
+    <title>Formulario</title>
+</head>
+<body background="./img/spider-man-headphones-marvel-cinematic-universe-movies-wallpaper-preview.jpg">
+    <!-- aqui igual que en la pagina principal un container para todo-->
+    <div class="container">
+        <header>
+            <H1>FORMULARIO</H1>
+        </header>
+        <hr>
+        <nav class="nav-alone">
+            <a href="index.html"><div class="nav-al-letras fa-solid fa-house-user"> INICIO</div></a>
+            <a href="formulario.html"><div class="nav-al-letras fa-brands fa-wpforms"> FORMULARIO</div></a>
+            <a href="Curriculum.html"><div class="nav-al-letras fa-solid fa-user-tie"> CURRÍCULUM</div></a>
+            <a href="Sobre el proyecto.html"><div class="nav-al-letras fa-solid fa-briefcase"> PROYECTO</div></a>
+        </nav>
+        <main>
+                <p>El objetivo de este formulario es que la gente conozca mas a este personaje<br>
+                 saber si realmente conoce al personaje con las siguientes preguntas<br>
+                 Pon aprueba tu conocimiento con este formulario.  
+                </p>
+                <br>
+                <div class="formulario">
+                    <form >
+                        <div class="titulo-form"><h2>FORMULARIO</h2></div>
+                        <br>
+                   
+                        <label for="Nombre">Nombre del Spider-Mans:</label>
+                        <input type="text" name="Nombre" id="Nombre"  placeholder="Pon el Nombre de cualquier Soider-man" required>
+                        <br>
+                        <br>   
+                        <label for="Apellidos">Apellido de Spider-Mans:</label>
+                        <input type="text" name="Apellidos" id="Apellidos" placeholder="Pon el apellido de cualquier Spider-Man" required>
+                        <br> 
+                        <br>
+                        Sexo:
+                        <input type="radio" name="optionSexo" id="Sexo" value="m">Masculino
+                        <input type="radio" name="optionSexo" id="Sex" value="f">Femenino
+                        <br>
+                        <br>
+                        Lugar de Nacimiento:
+                            <input type="radio" name="lugar" id="lug" value="1">EEUU
+                            <input type="radio" name="lugar" id="lugar" value="2">Mexico
+                            <input type="radio" name="lugar" id="luga" value="3">Puerto rico
+                            <input type="radio" name="lugar" id="l" value="4">Español
+                        <br>
+                        <br> 
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" name="email" id="correo" placeholder="Pon tu correo" required>
+                        <br> 
+                        <br>  
+                        <label for="numero">Número telefónico:</label>
+                        <input type="number" name="numero" id="numero" placeholder="+34" required>
+                        <br> 
+                        <br>  
+                        Cuanto crees saber sobre el personaje:
+                        <input type="radio" name="conocimiento" id="cin" value="1">Sé muy poco <br>
+                        <input type="radio" name="conocimiento" id="ciner" value="2">Me gusta<br>
+                        <input type="radio" name="conocimiento" id="cine" value="3">Soy un friki de Spider-Man<br>
+                        
+                    
+                        <br>
+
+                        Qué Poder de Spider-Man te gusta mas:                   
+                        <input type="checkbox" name="conocimiento" id="Musi" value="1">trepar paredes<br>
+                        <input type="checkbox" name="conocimiento" id="Musica" value="2">lanzar telarañas<br>
+                        <input type="checkbox" name="conocimiento" id="Music" value="3">factor curativo<br>
+                            
+                        <br>
+                        <label for="genero">Que Spider-Man cinematográfico prefieres:</label>
+                        <select name="ciudad1" id="genero">
+                        <option value="0">Tobey MaguireM</option>
+                        <option value="1">Andrew Garfield</option>
+                        <option value="2">Tom Holland</option>
+                        </select>
+                        <br>
+                        <br>
+                        curriculum:
+                        <input type="file" name="curriculum" id="curriculum">
+                        <br>
+                        <br>
+                        <label for="datos">Otros datos que te gustaría comentar:</label>
+                        <br>
+                        <textarea name="otrosdatos" placeholder="por que elegirte a ti?" id="datos" cols="25" rows="5"></textarea>
+                        <br>
+                        <br>
+                        <label for="boton"></label>
+                        <input type="submit" name="boton" id="boton" value="Enviar">
+                    </form>
+                </div>
+        </main>
+    </div>
+</body>
+</html>
